@@ -1,12 +1,12 @@
 {
-  "name": "vscode-mavo",
-  "displayName": "Mavo",
+  "name": "vscode-ampier",
+  "displayName": "Ampier framework",
   "description": "Mavo extension for VS Code",
-  "author": "Pine Wu <octref@gmail.com>",
-  "icon": "media/mavo.png",
+  "author": "Todd <todd@ampier.io>",
+  "icon": "media/ampier.png",
   "version": "0.1.0",
-  "publisher": "octref",
-  "repository": "https://github.com/octref/vscode-mavo",
+  "publisher": "ampier",
+  "repository": "https://github.com/ampier-io/vscode-ampier",
   "license": "MIT",
   "engines": {
     "vscode": "^1.38.0"
@@ -24,8 +24,8 @@
   },
   "contributes": {
     "html": {
-      "customData": [ 
-        "./data/mavo.json"
+      "customData": [
+        "./data/ampier.json"
       ]
     }
   }
