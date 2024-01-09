@@ -1,0 +1,550 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "m-accordion",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-accordion",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-accordion"
+        }
+      ]
+    },
+    {
+      "name": "m-accordion-body",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-accordion-body",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-accordion/m-accordion-body"
+        }
+      ]
+    },
+    {
+      "name": "m-accordion-section",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-accordion-section",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-accordion/m-accordion-section"
+        }
+      ]
+    },
+    {
+      "name": "m-accordion-title",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-accordion-title",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-accordion/m-accordion-title"
+        }
+      ]
+    },
+    {
+      "name": "m-asset",
+      "description": "",
+      "attributes": [],
+      "references": [
+
+      ]
+    },
+    {
+      "name": "m-assets",
+      "description": "",
+      "attributes": [],
+      "references": [
+
+      ]
+    },
+    {
+      "name": "m-body",
+      "description": "",
+      "attributes": [
+        {
+          "name": "font-family"
+        },
+        {
+          "name": "font-size"
+        },
+        {
+          "name": "line-height"
+        },
+        {
+          "name": "color"
+        },
+        {
+          "name": "bgcolor"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-body",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-body"
+        }
+      ]
+    },
+    {
+      "name": "m-box",
+      "description": "",
+      "attributes": [
+        {
+          "name": "align"
+        },
+        {
+          "name": "valign"
+        },
+        {
+          "name": "width"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-box",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-boxes/m-box"
+        }
+      ]
+    },
+    {
+      "name": "m-boxes",
+      "description": "",
+      "attributes": [
+        {
+          "name": "align"
+        },
+        {
+          "name": "valign"
+        },
+        {
+          "name": "inverted"
+        },
+        {
+          "name": "direction"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-boxes",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-boxes"
+        }
+      ]
+    },
+    {
+      "name": "m-button",
+      "description": "",
+      "attributes": [
+        {
+          "name": "font-family"
+        },
+        {
+          "name": "font-size"
+        },
+        {
+          "name": "line-height"
+        },
+        {
+          "name": "color"
+        },
+        {
+          "name": "bold"
+        },
+        {
+          "name": "bgcolor"
+        },
+        {
+          "name": "background"
+        },
+        {
+          "name": "border-radius"
+        },
+        {
+          "name": "border-color"
+        },
+        {
+          "name": "border-width"
+        },
+        {
+          "name": "border-style"
+        },
+        {
+          "name": "border"
+        },
+        {
+          "name": "on"
+        },
+        {
+          "name": "href"
+        },
+        {
+          "name": "height"
+        },
+        {
+          "name": "width"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-button",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-button"
+        }
+      ]
+    },
+    {
+      "name": "m-carousel",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-carousel",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-carousel"
+        }
+      ]
+    },
+    {
+      "name": "m-column",
+      "description": "",
+      "attributes": [
+        {
+          "name": "align"
+        },
+        {
+          "name": "valign"
+        },
+        {
+          "name": "bgcolor"
+        },
+        {
+          "name": "width"
+        },
+        {
+          "name": "height"
+        },
+        {
+          "name": "border-radius"
+        },
+        {
+          "name": "border-left"
+        },
+        {
+          "name": "border-right"
+        },
+        {
+          "name": "border-top"
+        },
+        {
+          "name": "border-bottom"
+        },
+        {
+          "name": "border"
+        },
+        {
+          "name": "padding"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-column",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-column"
+        }
+      ]
+    },
+    {
+      "name": "m-form",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-form",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-form"
+        }
+      ]
+    },
+    {
+      "name": "m-form-error",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-form-error",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-form/m-form-error"
+        }
+      ]
+    },
+    {
+      "name": "m-form-success",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-form-success",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-form/m-form-success"
+        }
+      ]
+    },
+    {
+      "name": "m-head",
+      "description": "",
+      "attributes": [
+        {
+          "name": "preheader"
+        },
+        {
+          "name": "short-preheader"
+        },
+        {
+          "name": "title"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-head",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-head"
+        }
+      ]
+    },
+    {
+      "name": "m-img",
+      "description": "",
+      "attributes": [
+        {
+          "name": "font-family"
+        },
+        {
+          "name": "font-size"
+        },
+        {
+          "name": "line-height"
+        },
+        {
+          "name": "color"
+        },
+        {
+          "name": "href"
+        },
+        {
+          "name": "src"
+        },
+        {
+          "name": "inline"
+        },
+        {
+          "name": "width"
+        },
+        {
+          "name": "height"
+        },
+        {
+          "name": "border-radius"
+        },
+        {
+          "name": "alt"
+        },
+        {
+          "name": "title"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-img",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-img"
+        }
+      ]
+    },
+    {
+      "name": "m-padding",
+      "description": "",
+      "attributes": [
+        {
+          "name": "size"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-padding",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-padding"
+        }
+      ]
+    },
+    {
+      "name": "m-row",
+      "description": "",
+      "attributes": [
+        {
+          "name": "width"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-row",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-row"
+        }
+      ]
+    },
+    {
+      "name": "m-separator",
+      "description": "",
+      "attributes": [
+        {
+          "name": "color"
+        },
+        {
+          "name": "size"
+        },
+        {
+          "name": "padding"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-separator",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-separator"
+        }
+      ]
+    },
+    {
+      "name": "m-style",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-style",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-style"
+        }
+      ]
+    },
+    {
+      "name": "m-template",
+      "description": "",
+      "attributes": [],
+      "references": [
+        {
+          "name": "See more about m-template",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-template"
+        }
+      ]
+    },
+    {
+      "name": "m-text",
+      "description": "",
+      "attributes": [
+        {
+          "name": "font-family"
+        },
+        {
+          "name": "font-size"
+        },
+        {
+          "name": "line-height"
+        },
+        {
+          "name": "color"
+        },
+        {
+          "name": "bold"
+        },
+        {
+          "name": "text-decoration"
+        },
+        {
+          "name": "href"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-text",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-text"
+        }
+      ]
+    },
+    {
+      "name": "m-wrap",
+      "description": "",
+      "attributes": [
+        {
+          "name": "width"
+        },
+        {
+          "name": "height"
+        },
+        {
+          "name": "outlook-width"
+        },
+        {
+          "name": "padding"
+        },
+        {
+          "name": "bgcolor"
+        },
+        {
+          "name": "background-image"
+        },
+        {
+          "name": "outlook-background-image"
+        },
+        {
+          "name": "background-position"
+        },
+        {
+          "name": "align"
+        },
+        {
+          "name": "valign"
+        },
+        {
+          "name": "border-radius"
+        },
+        {
+          "name": "border-left"
+        },
+        {
+          "name": "border-right"
+        },
+        {
+          "name": "border-top"
+        },
+        {
+          "name": "border-bottom"
+        },
+        {
+          "name": "border"
+        },
+        {
+          "name": "box-shadow"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about m-wrap",
+          "url": "https://docs.ampier.io/en/framework/documentation/m-wrap"
+        }
+      ]
+    },
+    {
+      "name": "tj-ui",
+      "description": "",
+      "attributes": [
+        {
+          "name": "pixel-perfect"
+        },
+        {
+          "name": "type"
+        },
+        {
+          "name": "theme"
+        }
+      ],
+      "references": [
+        {
+          "name": "See more about tj-ui",
+          "url": "https://docs.ampier.io/en/framework/documentation/tj-ui"
+        }
+      ]
+    }
+  ],
+  "globalAttributes": [],
+  "valueSets": []
+}
