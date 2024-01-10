@@ -3,8 +3,17 @@
   "tags": [
     {
       "name": "m-accordion",
-      "description": "",
-      "attributes": [],
+      "description": "AMP Accordion. Allows you to create \"accordions\" in emails",
+      "attributes": [
+        {
+          "name": "animate",
+          "description": "Animated folding and unfolding of sections"
+        },
+        {
+          "name": "expand-single-section",
+          "description": "Expands a single section"
+        }
+      ],
       "references": [
         {
           "name": "See more about m-accordion",
@@ -14,7 +23,7 @@
     },
     {
       "name": "m-accordion-body",
-      "description": "",
+      "description": "AMP Body of an Accordion Section. Allows you to create the body of a section in an accordion.",
       "attributes": [],
       "references": [
         {
@@ -25,8 +34,13 @@
     },
     {
       "name": "m-accordion-section",
-      "description": "",
-      "attributes": [],
+      "description": "AMP Section of an Accordion. Allows you to create a section in an accordion.",
+      "attributes": [
+        {
+          "name": "expanded",
+          "description": "display expanded by default (works only in the amp version of the letter)"
+        }
+      ],
       "references": [
         {
           "name": "See more about m-accordion-section",
@@ -36,7 +50,7 @@
     },
     {
       "name": "m-accordion-title",
-      "description": "",
+      "description": "AMP Title of an Accordion Section. Allows you to create a clickable section heading in the accordion that expands or collapses the content of the section",
       "attributes": [],
       "references": [
         {
@@ -50,7 +64,6 @@
       "description": "",
       "attributes": [],
       "references": [
-
       ]
     },
     {
@@ -58,27 +71,31 @@
       "description": "",
       "attributes": [],
       "references": [
-
       ]
     },
     {
       "name": "m-body",
-      "description": "",
+      "description": "The overall wrapping of the entire email. The tag is required and can be used in the email only once.",
       "attributes": [
         {
-          "name": "font-family"
+          "name": "font-family",
+          "description": "Default font family"
         },
         {
-          "name": "font-size"
+          "name": "font-size",
+          "description": "Default font size"
         },
         {
-          "name": "line-height"
+          "name": "line-height",
+          "description": "Default line height"
         },
         {
-          "name": "color"
+          "name": "color",
+          "description": "Default text color"
         },
         {
-          "name": "bgcolor"
+          "name": "bgcolor",
+          "description": "The background color of the entire email"
         }
       ],
       "references": [
@@ -90,16 +107,19 @@
     },
     {
       "name": "m-box",
-      "description": "",
+      "description": "Stacking blocks. Can only be used inside m-boxes",
       "attributes": [
         {
-          "name": "align"
+          "name": "align",
+          "description": "Horizontal alignment. Can be **left / right / center**"
         },
         {
-          "name": "valign"
+          "name": "valign",
+          "description": "Vertical alignment. Can be **top / bottom / middle**"
         },
         {
-          "name": "width"
+          "name": "width",
+          "description": "Block width in px"
         }
       ],
       "references": [
@@ -111,19 +131,19 @@
     },
     {
       "name": "m-boxes",
-      "description": "",
+      "description": "Wrapping for stacking blocks, can only contain m-box elements",
       "attributes": [
         {
-          "name": "align"
+          "name": "align",
+          "description": "Horizontal alignment. Can be **left / right / center**"
         },
         {
-          "name": "valign"
+          "name": "valign",
+          "description": "Vertical alignment. Can be **top / bottom / middle**"
         },
         {
-          "name": "inverted"
-        },
-        {
-          "name": "direction"
+          "name": "inverted",
+          "description": "Reverses the direction of block stacking."
         }
       ],
       "references": [
@@ -135,55 +155,67 @@
     },
     {
       "name": "m-button",
-      "description": "",
+      "description": "Button",
       "attributes": [
         {
-          "name": "font-family"
+          "name": "font-family",
+          "description": "Font family"
         },
         {
-          "name": "font-size"
+          "name": "font-size",
+          "description": "Font size in px or pt"
         },
         {
-          "name": "line-height"
+          "name": "color",
+          "description": "Text color"
         },
         {
-          "name": "color"
+          "name": "bold",
+          "description": "Bold typeface"
         },
         {
-          "name": "bold"
+          "name": "bgcolor",
+          "description": "Button color"
         },
         {
-          "name": "bgcolor"
+          "name": "background",
+          "description": "Background image"
         },
         {
-          "name": "background"
+          "name": "border-radius",
+          "description": "Button rounding radius"
         },
         {
-          "name": "border-radius"
+          "name": "border-color",
+          "description": "Border color"
         },
         {
-          "name": "border-color"
+          "name": "border-width",
+          "description": "Border width"
         },
         {
-          "name": "border-width"
+          "name": "border-style",
+          "description": "Border style (solid|dashed|dotted)"
         },
         {
-          "name": "border-style"
+          "name": "border",
+          "description": "Border width, style and color, e.g., 1px solid #000000"
         },
         {
-          "name": "border"
+          "name": "on",
+          "description": "AMP event handler"
         },
         {
-          "name": "on"
+          "name": "href",
+          "description": "URL"
         },
         {
-          "name": "href"
+          "name": "height",
+          "description": "Button height in px"
         },
         {
-          "name": "height"
-        },
-        {
-          "name": "width"
+          "name": "width",
+          "description": "Button width in px or percents"
         }
       ],
       "references": [
@@ -195,8 +227,37 @@
     },
     {
       "name": "m-carousel",
-      "description": "",
-      "attributes": [],
+      "description": "AMP Carousel. Allows you to create carousels of images and content inside the email",
+      "attributes": [
+        {
+          "name": "width",
+          "description": "Carousel width. Must be set in pixels"
+        },
+        {
+          "name": "height",
+          "description": "Carousel height. Must be set in pixels"
+        },
+        {
+          "name": "layout",
+          "description": "The layout of the carousel. Allowed values:  fill, fixed, fixed-height, flex-item, intrinsic, nodisplay, responsive"
+        },
+        {
+          "name": "type",
+          "description": "Carousel type (slides|carousel)"
+        },
+        {
+          "name": "loop",
+          "description": "Carousel loop"
+        },
+        {
+          "name": "autoplay",
+          "description": "Carousel autoplay: the slides advance without user interaction"
+        },
+        {
+          "name": "delay",
+          "description": "Autoplay time"
+        }
+      ],
       "references": [
         {
           "name": "See more about m-carousel",
@@ -206,43 +267,55 @@
     },
     {
       "name": "m-column",
-      "description": "",
+      "description": "Non-stacking block. (similar to a table cell). Can only be used inside an m-row element",
       "attributes": [
         {
-          "name": "align"
+          "name": "align",
+          "description": "Horizontal alignment. Can be left | right | center"
         },
         {
-          "name": "valign"
+          "name": "valign",
+          "description": "Vertical alignment. Can be top | bottom | middle"
         },
         {
-          "name": "bgcolor"
+          "name": "bgcolor",
+          "description": "Background color"
         },
         {
-          "name": "width"
+          "name": "width",
+          "description": "Block width in px or percents"
         },
         {
-          "name": "height"
+          "name": "height",
+          "description": "Block height in px"
         },
         {
-          "name": "border-radius"
+          "name": "border-radius",
+          "description": "Rounding radius"
         },
         {
-          "name": "border-left"
+          "name": "border-left",
+          "description": "Border left properties, e.g.,  #cccccc 2px solid"
         },
         {
-          "name": "border-right"
+          "name": "border-right",
+          "description": "Border right properties, e.g.,  #cccccc 2px solid"
         },
         {
-          "name": "border-top"
+          "name": "border-top",
+          "description": "Border top properties, e.g.,#cccccc 2px solid"
         },
         {
-          "name": "border-bottom"
+          "name": "border-bottom",
+          "description": "Border bottom properties. E.G.:  #cccccc 2px solid"
         },
         {
-          "name": "border"
+          "name": "border",
+          "description": "Border properties, e.g.,  #cccccc 2px solid"
         },
         {
-          "name": "padding"
+          "name": "padding",
+          "description": "Padding. Can be set by 1 to 4 parameters in px, according to the CSS standard"
         }
       ],
       "references": [
@@ -254,8 +327,21 @@
     },
     {
       "name": "m-form",
-      "description": "",
-      "attributes": [],
+      "description": "AMP form. Allows you to create forms in an email",
+      "attributes": [
+        {
+          "name": "action",
+          "description": "Form submission address"
+        },
+        {
+          "name": "id",
+          "description": "Specifies the state of the form. Upon successful submission, the state changes to ‘true’, which can be used to hide the form"
+        },
+        {
+          "name": "on",
+          "description": "AMP event handler. If set or generated automatically, the ID of the m-form element will be substituted for formId"
+        }
+      ],
       "references": [
         {
           "name": "See more about m-form",
@@ -265,7 +351,7 @@
     },
     {
       "name": "m-form-error",
-      "description": "",
+      "description": "Allows you to display a validation error message when a form is submitted.\nCan only be nested within an m-form \nSupports output patterns with double square brackets",
       "attributes": [],
       "references": [
         {
@@ -276,7 +362,7 @@
     },
     {
       "name": "m-form-success",
-      "description": "",
+      "description": "Displays a form success message.\nCan only be nested within an m-form\nSupports output patterns with double square brackets",
       "attributes": [],
       "references": [
         {
@@ -287,16 +373,19 @@
     },
     {
       "name": "m-head",
-      "description": "",
+      "description": "Specifies the preheader parameters. Can contain a style tag with the description of styles.",
       "attributes": [
         {
-          "name": "preheader"
+          "name": "preheader",
+          "description": "Preheader text"
         },
         {
-          "name": "short-preheader"
+          "name": "short-preheader",
+          "description": "Use short preheader"
         },
         {
-          "name": "title"
+          "name": "title",
+          "description": ""
         }
       ],
       "references": [
@@ -308,43 +397,51 @@
     },
     {
       "name": "m-img",
-      "description": "",
+      "description": "Adds an image.",
       "attributes": [
         {
-          "name": "font-family"
+          "name": "font-family",
+          "description": "Font family for alt texts"
         },
         {
-          "name": "font-size"
+          "name": "font-size",
+          "description": "Font size for alt texts"
         },
         {
-          "name": "line-height"
+          "name": "color",
+          "description": "Font color for alt texts"
         },
         {
-          "name": "color"
+          "name": "href",
+          "description": "If the attribute is set, the image will turn into a link"
         },
         {
-          "name": "href"
+          "name": "src",
+          "description": "Source image URL"
         },
         {
-          "name": "src"
+          "name": "inline",
+          "description": "Display the image inline"
         },
         {
-          "name": "inline"
+          "name": "width",
+          "description": "Image width"
         },
         {
-          "name": "width"
+          "name": "height",
+          "description": "Image height"
         },
         {
-          "name": "height"
+          "name": "border-radius",
+          "description": "Rounding radius"
         },
         {
-          "name": "border-radius"
+          "name": "alt",
+          "description": "Alt text — the text that the user will see if the image is not displayed"
         },
         {
-          "name": "alt"
-        },
-        {
-          "name": "title"
+          "name": "title",
+          "description": "Title text"
         }
       ],
       "references": [
@@ -356,10 +453,11 @@
     },
     {
       "name": "m-padding",
-      "description": "",
+      "description": "Creates a vertical indent",
       "attributes": [
         {
-          "name": "size"
+          "name": "size",
+          "description": "Vertical indent size in px"
         }
       ],
       "references": [
@@ -371,10 +469,11 @@
     },
     {
       "name": "m-row",
-      "description": "",
+      "description": "Wraps non-stacking blocks (similar to a table row). Can only contain m-column elements",
       "attributes": [
         {
-          "name": "width"
+          "name": "width",
+          "description": "The width. Can be specified as pixels or percentages"
         }
       ],
       "references": [
@@ -386,16 +485,19 @@
     },
     {
       "name": "m-separator",
-      "description": "",
+      "description": "Separator (a horizontal line)",
       "attributes": [
         {
-          "name": "color"
+          "name": "color",
+          "description": "line color"
         },
         {
-          "name": "size"
+          "name": "size",
+          "description": "line weight"
         },
         {
-          "name": "padding"
+          "name": "padding",
+          "description": "the indent size before and after the line"
         }
       ],
       "references": [
@@ -407,7 +509,7 @@
     },
     {
       "name": "m-style",
-      "description": "",
+      "description": "Hosts your own styles, similar to the style tag",
       "attributes": [],
       "references": [
         {
@@ -418,7 +520,7 @@
     },
     {
       "name": "m-template",
-      "description": "",
+      "description": "Tag for using amp-mustache\nThe amp-mustache component alone cannot be used in TJML. For it to work correctly, pick the m-template where necessary.\nTo insert dynamic elements, use double square brackets <pre> [[]] </pre> instead of curly brackets <pre> {{}} </pre>",
       "attributes": [],
       "references": [
         {
@@ -429,28 +531,35 @@
     },
     {
       "name": "m-text",
-      "description": "",
+      "description": "Adds text or link. Can contain regular html tags, e.g., &lt;a&gt;, &lt;b&gt;, etc.",
       "attributes": [
         {
-          "name": "font-family"
+          "name": "font-family",
+          "description": "Font family"
         },
         {
-          "name": "font-size"
+          "name": "font-size",
+          "description": "Font size in px or pt"
         },
         {
-          "name": "line-height"
+          "name": "line-height",
+          "description": "Line height in px or percents"
         },
         {
-          "name": "color"
+          "name": "color",
+          "description": "Text color"
         },
         {
-          "name": "bold"
+          "name": "bold",
+          "description": "Bold typeface"
         },
         {
-          "name": "text-decoration"
+          "name": "text-decoration",
+          "description": "Text decoration"
         },
         {
-          "name": "href"
+          "name": "href",
+          "description": "A link. If the attribute is specified, the text will be a link"
         }
       ],
       "references": [
@@ -462,58 +571,75 @@
     },
     {
       "name": "m-wrap",
-      "description": "",
+      "description": "Wraps any element. Allows you to limit the width, set the background color or background image",
       "attributes": [
         {
-          "name": "width"
+          "name": "width",
+          "description": "Block width in px or percents"
         },
         {
-          "name": "height"
+          "name": "height",
+          "description": "Block height in px"
         },
         {
-          "name": "outlook-width"
+          "name": "outlook-width",
+          "description": "Allows you to set a custom width for Outlook (used for widescreen emails)"
         },
         {
-          "name": "padding"
+          "name": "padding",
+          "description": "Padding. Can be set by 1 to 4 parameters in px, according to the CSS standard"
         },
         {
-          "name": "bgcolor"
+          "name": "bgcolor",
+          "description": "Background color"
         },
         {
-          "name": "background-image"
+          "name": "background-image",
+          "description": "Background image"
         },
         {
-          "name": "outlook-background-image"
+          "name": "outlook-background-image",
+          "description": "Allows you to set a custom background image for Outlook and Lotus (used for widescreen emails)"
         },
         {
-          "name": "background-position"
+          "name": "background-position",
+          "description": "Background image position (Lotus and Outlook will ignore this attribute)"
         },
         {
-          "name": "align"
+          "name": "align",
+          "description": "Horizontal alignment. Can be left | right | center"
         },
         {
-          "name": "valign"
+          "name": "valign",
+          "description": "Vertical alignment. Can be top | bottom | middle"
         },
         {
-          "name": "border-radius"
+          "name": "border-radius",
+          "description": "Rounding radius"
         },
         {
-          "name": "border-left"
+          "name": "border-left",
+          "description": "Border left properties, e.g., #cccccc 2px solid"
         },
         {
-          "name": "border-right"
+          "name": "border-right",
+          "description": "Border right properties, e.g., #cccccc 2px solid"
         },
         {
-          "name": "border-top"
+          "name": "border-top",
+          "description": "Border top properties, e.g., #cccccc 2px solid"
         },
         {
-          "name": "border-bottom"
+          "name": "border-bottom",
+          "description": "Border bottom properties, e.g., #cccccc 2px solid"
         },
         {
-          "name": "border"
+          "name": "border",
+          "description": "Border properties, e.g., #cccccc 2px solid"
         },
         {
-          "name": "box-shadow"
+          "name": "box-shadow",
+          "description": "Box shadow"
         }
       ],
       "references": [
@@ -525,16 +651,15 @@
     },
     {
       "name": "tj-ui",
-      "description": "",
+      "description": "The tag is required and contains only an m-body. Forms the framework interface",
       "attributes": [
         {
-          "name": "pixel-perfect"
+          "name": "pixel-perfect",
+          "description": "The URL to the email mockup image for testing in the Pixel Perfect mode."
         },
         {
-          "name": "type"
-        },
-        {
-          "name": "theme"
+          "name": "theme",
+          "description": "dark or light theme of UI. System theme used by default"
         }
       ],
       "references": [

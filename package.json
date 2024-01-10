@@ -4,7 +4,7 @@
   "description": "Mavo extension for VS Code",
   "author": "Todd <todd@ampier.io>",
   "icon": "media/ampier.png",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publisher": "ampier",
   "repository": "https://github.com/ampier-io/vscode-ampier",
   "license": "MIT",

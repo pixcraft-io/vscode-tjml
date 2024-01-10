@@ -1,17 +1,20 @@
 # Ampier
 
-[Ampier](https://ampier.io/) extension for VS Code that offers auto completion and hover information for all TJML tags from a simple JSON file.
+The [Ampier](https://ampier.io/) extension for VS Code offers auto-completion and hover information for all TJML tags from a simple JSON file. TJML is an XML-like markup language built to create emails in a modern declarative style.
 
 ## Ampier framework
-It is an email framework that enables quick and convenient creation of cross-platform AMP and HTML emails with the help of TJML — an xml-like markup language.
- 
-- more about Ampier framework [on github](https://github.com/ampier-io/ampier-framework) 
-- more about Ampier framework [on site](https://docs.ampier.io/en/framework/documentation)
+This email framework enables the quick and convenient creation of cross-platform AMP and HTML emails using TJML.
 
-## Install
+- Find more about the Ampier framework on [GitHub](https://github.com/ampier-io/ampier-framework).
+- Access the Ampier Framework [documentation](https://docs.ampier.io/en/framework/documentation).
 
-You can install the extension by one of the following ways:
+##Demo
+![demo](./media/demo.gif)
 
-- Search for `Ampier` in extension panel and install it
-- Download from [Marketplace](https://marketplace.visualstudio.com/items?itemName=Ampier.vscode-ampier)
-- Download from [GitHub Release](https://github.com/ampier-io/vscode-ampier) page
+## Installation
+
+You can install the extension through one of the following methods:
+
+- Search for `Ampier` in the VSCode Extensions Panel and install it.
+- Download it from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=Ampier.vscode-ampier).
+- Download it from [GitHub](https://github.com/ampier-io/vscode-ampier).
