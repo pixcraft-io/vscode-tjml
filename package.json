@@ -1,13 +1,29 @@
 {
   "name": "vscode-ampier",
-  "displayName": "Ampier framework",
-  "description": "Mavo extension for VS Code",
+  "displayName": "Ampier Framework Auto-Complete",
+  "description": "Get TJML code completion, syntax highlighting, tag descriptions, attribute details, and direct doc links",
   "author": "Todd <todd@ampier.io>",
   "icon": "media/ampier.png",
   "version": "0.1.2",
   "publisher": "ampier",
   "repository": "https://github.com/ampier-io/vscode-ampier",
   "license": "MIT",
+  "categories": [
+    "Programming Languages",
+    "Formatters",
+    "Other"
+  ],
+  "keywords": [
+    "email",
+    "AMP",
+    "framework",
+    "syntax",
+    "vue"
+  ],
+  "galleryBanner": {
+    "color": "#EEE5FF",
+    "theme": "light"
+  },
   "engines": {
     "vscode": "^1.38.0"
   },
