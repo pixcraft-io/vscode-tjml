@@ -1,12 +1,12 @@
 {
   "name": "vscode-ampier",
-  "displayName": "Ampier Framework Auto-Complete",
+  "displayName": "TJML Framework Auto-Complete",
   "description": "Get TJML code completion, syntax highlighting, tag descriptions, attribute details, and direct doc links",
-  "author": "Todd <todd@ampier.io>",
+  "author": "Todd <team@pixcraft.io>",
   "icon": "media/ampier.png",
-  "version": "0.1.2",
-  "publisher": "ampier",
-  "repository": "https://github.com/ampier-io/vscode-ampier",
+  "version": "0.1.3",
+  "publisher": "Ampier",
+  "repository": "https://github.com/pixcraft-io/vscode-tjml",
   "license": "MIT",
   "categories": [
     "Programming Languages",
