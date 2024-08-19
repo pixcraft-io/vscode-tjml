@@ -14,5 +14,5 @@ This email framework enables the quick and convenient creation of cross-platform
 You can install the extension through one of the following methods:
 
 - Search for `Ampier` in the VSCode Extensions Panel and install it.
-- Download it from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=Ampier.vscode-ampier).
+- Download it from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=Pixcraft.vscode-tjml).
 - Download it from [GitHub](https://github.com/pixcraft-io/vscode-tjml).
