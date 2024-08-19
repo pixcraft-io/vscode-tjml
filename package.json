@@ -1,11 +1,11 @@
 {
-  "name": "vscode-ampier",
-  "displayName": "TJML Framework Auto-Complete",
+  "name": "vscode-tjml",
+  "displayName": "TJML Framework Auto-Complete plugin",
   "description": "Get TJML code completion, syntax highlighting, tag descriptions, attribute details, and direct doc links",
   "author": "Todd <team@pixcraft.io>",
   "icon": "media/logo.png",
   "version": "0.1.3",
-  "publisher": "Ampier",
+  "publisher": "Pixcraft",
   "repository": "https://github.com/pixcraft-io/vscode-tjml",
   "license": "MIT",
   "categories": [
