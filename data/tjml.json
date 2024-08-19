@@ -17,7 +17,7 @@
       "references": [
         {
           "name": "See more about m-accordion",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-accordion"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-accordion"
         }
       ]
     },
@@ -28,7 +28,7 @@
       "references": [
         {
           "name": "See more about m-accordion-body",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-accordion/m-accordion-body"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-accordion/m-accordion-body"
         }
       ]
     },
@@ -44,7 +44,7 @@
       "references": [
         {
           "name": "See more about m-accordion-section",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-accordion/m-accordion-section"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-accordion/m-accordion-section"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "references": [
         {
           "name": "See more about m-accordion-title",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-accordion/m-accordion-title"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-accordion/m-accordion-title"
         }
       ]
     },
@@ -101,7 +101,7 @@
       "references": [
         {
           "name": "See more about m-body",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-body"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-body"
         }
       ]
     },
@@ -125,7 +125,7 @@
       "references": [
         {
           "name": "See more about m-box",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-boxes/m-box"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-boxes/m-box"
         }
       ]
     },
@@ -149,7 +149,7 @@
       "references": [
         {
           "name": "See more about m-boxes",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-boxes"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-boxes"
         }
       ]
     },
@@ -221,7 +221,7 @@
       "references": [
         {
           "name": "See more about m-button",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-button"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-button"
         }
       ]
     },
@@ -261,7 +261,7 @@
       "references": [
         {
           "name": "See more about m-carousel",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-carousel"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-carousel"
         }
       ]
     },
@@ -321,7 +321,7 @@
       "references": [
         {
           "name": "See more about m-column",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-column"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-column"
         }
       ]
     },
@@ -345,7 +345,7 @@
       "references": [
         {
           "name": "See more about m-form",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-form"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-form"
         }
       ]
     },
@@ -356,7 +356,7 @@
       "references": [
         {
           "name": "See more about m-form-error",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-form/m-form-error"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-form/m-form-error"
         }
       ]
     },
@@ -367,7 +367,7 @@
       "references": [
         {
           "name": "See more about m-form-success",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-form/m-form-success"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-form/m-form-success"
         }
       ]
     },
@@ -391,7 +391,7 @@
       "references": [
         {
           "name": "See more about m-head",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-head"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-head"
         }
       ]
     },
@@ -447,7 +447,7 @@
       "references": [
         {
           "name": "See more about m-img",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-img"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-img"
         }
       ]
     },
@@ -463,7 +463,7 @@
       "references": [
         {
           "name": "See more about m-padding",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-padding"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-padding"
         }
       ]
     },
@@ -479,7 +479,7 @@
       "references": [
         {
           "name": "See more about m-row",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-row"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-row"
         }
       ]
     },
@@ -503,7 +503,7 @@
       "references": [
         {
           "name": "See more about m-separator",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-separator"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-separator"
         }
       ]
     },
@@ -514,7 +514,7 @@
       "references": [
         {
           "name": "See more about m-style",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-style"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-style"
         }
       ]
     },
@@ -525,7 +525,7 @@
       "references": [
         {
           "name": "See more about m-template",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-template"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-template"
         }
       ]
     },
@@ -565,7 +565,7 @@
       "references": [
         {
           "name": "See more about m-text",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-text"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-text"
         }
       ]
     },
@@ -576,6 +576,10 @@
         {
           "name": "width",
           "description": "Block width in px or percents"
+        },
+        {
+          "name": "fixed-width",
+          "description": "Fixes the width in pixels for non-responsive blocks"
         },
         {
           "name": "height",
@@ -645,7 +649,7 @@
       "references": [
         {
           "name": "See more about m-wrap",
-          "url": "https://docs.ampier.io/en/framework/documentation/m-wrap"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/m-wrap"
         }
       ]
     },
@@ -665,7 +669,7 @@
       "references": [
         {
           "name": "See more about tj-ui",
-          "url": "https://docs.ampier.io/en/framework/documentation/tj-ui"
+          "url": "https://docs.pixcraft.io/en/framework/documentation/tj-ui"
         }
       ]
     }
